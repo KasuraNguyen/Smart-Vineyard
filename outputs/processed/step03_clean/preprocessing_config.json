@@ -1,8 +1,13 @@
 {
-    "total_raw_matched": 3476,
+    "input_matched_records": 3476,
     "removed_conflict_records": 18,
     "task1_unique_images": 2407,
-    "task2_full_consistent": 3458,
+    "task2_full_consistent_records": 3458,
+    "split_counts": {
+        "train": 1684,
+        "test": 362,
+        "val": 361
+    },
     "rgb_mean": [
         0.4658,
         0.4949,
