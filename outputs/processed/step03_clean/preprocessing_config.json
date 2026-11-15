@@ -1,0 +1,22 @@
+{
+    "total_raw_matched": 3476,
+    "removed_conflict_records": 18,
+    "task1_unique_images": 2407,
+    "task2_full_consistent": 3458,
+    "rgb_mean": [
+        0.4658,
+        0.4949,
+        0.2657
+    ],
+    "rgb_std": [
+        0.2295,
+        0.2314,
+        0.1882
+    ],
+    "class_weights": {
+        "Black Rot": 6.1912,
+        "Esca": 0.679,
+        "Healthy": 0.5503,
+        "Leaf Blight": 1.8225
+    }
+}

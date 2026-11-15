@@ -1,0 +1,3 @@
+﻿Sr_No,Plant_Health_Status,Disease_Type,Location.Vineyard,Location.GPS.Latitude,Location.GPS.Longitude,Environmental_Conditions.Time_of_Capture,Environmental_Conditions.Lighting,Environmental_Conditions.Weather,Device_Specifications.Device_Name,Device_Specifications.Sensor,Device_Specifications.OS
+20,Diseased,Black Rot,Vineyard_5,18.787652,74.069949,Morning,Overcast,Humid,Redmi Note 10 5G,Sony IMX 582 1/2rr,Android
+809,Diseased,Black Rot,Vineyard_16,18.735187,74.005753,Afternoon,Partly cloudy,Windy,Redmi Note 10 5G,Sony IMX 582 1/2rr,Android
