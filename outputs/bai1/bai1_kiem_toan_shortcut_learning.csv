@@ -1,0 +1,4 @@
+﻿Thi_nghiem_Kiem_toan,Macro_F1_TB,Balanced_Acc_TB,Accuracy_TB,F1_BlackRot,F1_LeafBlight,F1_Esca,F1_Healthy
+1. Chỉ dùng kênh Độ sáng (HSV_V - 3 cột),0.6108,0.6024,0.8188,0.3699,0.3562,0.7906,0.9324
+"2. Loại bỏ hoàn toàn Độ sáng (Chỉ H, S, GLCM, Hu - 22 cột)",0.8498,0.8519,0.9507,0.6804,0.7682,0.9674,0.989
+3. Bộ đặc trưng đầy đủ (25 cột),0.8435,0.8427,0.9521,0.6562,0.76,0.971,0.9922
