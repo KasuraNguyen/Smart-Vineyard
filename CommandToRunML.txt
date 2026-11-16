@@ -1,0 +1,56 @@
+ONLY WHEN YOU RUN TO CELL 8.2 IN TASK01
+
+Example: you have image in: test_images/leaf01.jpg
+
+THEN, OPEN TERMINAL IN SRC FILE SMART-VINEYARD.
+
+Command:
+- Dummy Classifier
+python predict_ml.py "test_images/leaf_01.jpg" --model "outputs/bai1/ml_models/all_models/0_Dummy_o_n_l_p_a_s.joblib"
+
+- Logistic Regression
+python predict_ml.py "test_images/leaf_01.jpg" --model "outputs/bai1/ml_models/all_models/1_Logistic_Regression.joblib"
+
+- KNN
+python predict_ml.py "test_images/leaf_01.jpg" --model "outputs/bai1/ml_models/all_models/2_KNN_k_7_Distance.joblib"
+
+- SVM
+python predict_ml.py "test_images/leaf_01.jpg" --model "outputs/bai1/ml_models/all_models/3_SVM_RBF_Kernel_C_3.joblib"
+
+- Decision Tree
+python predict_ml.py "test_images/leaf_01.jpg" --model "outputs/bai1/ml_models/all_models/4_Decision_Tree.joblib"
+
+- Random Forest
+python predict_ml.py "test_images/leaf_01.jpg" --model "outputs/bai1/ml_models/all_models/5_Random_Forest_300_cây.joblib"
+
+- Extra Trees
+python predict_ml.py "test_images/leaf_01.jpg" --model "outputs/bai1/ml_models/all_models/6_Extra_Trees_300_cây.joblib"
+
+- HistGradientBoosting
+python predict_ml.py "test_images/leaf_01.jpg" --model "outputs/bai1/ml_models/all_models/7_HistGradientBoosting.joblib"
+
+- MLP
+python predict_ml.py "test_images/leaf_01.jpg" --model "outputs/bai1/ml_models/all_models/8_MLP_Neural_Net_128x64.joblib"
+
+
+*note: use first command 'py' or 'python' decide on your python version
+
+
+example run: py predict_ml.py "D:\DataMining26\Smart-Vineyard\test_images\Black_rot\Black_rot_1.jpg" --model "outputs/bai1/ml_models/all_models/3_SVM_RBF_Kernel_C_3.joblib"
+output:
+=== KẾT QUẢ DỰ ĐOÁN ===
+Ảnh: D:\DataMining26\Smart-Vineyard\test_images\Black_rot\Black_rot_1.jpg
+Mô hình: 3. SVM (RBF Kernel, C=3)
+Nhãn dự đoán: Black Rot
+
+Xác suất đầu ra của mô hình:
+  Black Rot      : 0.8142 (81.42%)
+  Leaf Blight    : 0.1289 (12.89%)
+  Esca           : 0.0559 (5.59%)
+  Healthy        : 0.0010 (0.10%)
+
+*note: use first command 'py' or 'python' decide on your python version
+
+If you just run 8.1 and skip 8.2. Then just using the best model in output 8.1
+
+This file will be merge in README soon.
