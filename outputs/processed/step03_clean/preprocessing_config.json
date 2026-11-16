@@ -1,12 +1,14 @@
 {
     "input_matched_records": 3476,
-    "removed_conflict_records": 18,
-    "task1_unique_images": 2407,
-    "task2_full_consistent_records": 3458,
+    "removed_md5_conflict_records": 18,
+    "removed_near_conflict_records": 554,
+    "removed_conflict_records": 572,
+    "task1_unique_images": 2047,
+    "task2_full_consistent_records": 2904,
     "split_counts": {
-        "train": 1684,
-        "test": 362,
-        "val": 361
+        "train": 1432,
+        "test": 308,
+        "val": 307
     },
     "rgb_mean": [
         0.4658,
@@ -19,9 +21,55 @@
         0.1882
     ],
     "class_weights": {
-        "Black Rot": 6.1912,
-        "Esca": 0.679,
-        "Healthy": 0.5503,
-        "Leaf Blight": 1.8225
-    }
+        "Black Rot": 5.3433,
+        "Esca": 0.7232,
+        "Healthy": 0.4686,
+        "Leaf Blight": 3.3774
+    },
+    "class_weights_sqrt": {
+        "Black Rot": 2.3116,
+        "Esca": 0.8504,
+        "Healthy": 0.6845,
+        "Leaf Blight": 1.8378
+    },
+    "unique_images_per_class": {
+        "Healthy": 1092,
+        "Esca": 707,
+        "Leaf Blight": 152,
+        "Black Rot": 96
+    },
+    "feature_columns": [
+        "HSV_H_mean",
+        "HSV_H_std",
+        "HSV_H_skew",
+        "HSV_S_mean",
+        "HSV_S_std",
+        "HSV_S_skew",
+        "HSV_V_mean",
+        "HSV_V_std",
+        "HSV_V_skew",
+        "GLCM_contrast_mean",
+        "GLCM_contrast_std",
+        "GLCM_dissimilarity_mean",
+        "GLCM_dissimilarity_std",
+        "GLCM_homogeneity_mean",
+        "GLCM_homogeneity_std",
+        "GLCM_energy_mean",
+        "GLCM_energy_std",
+        "GLCM_correlation_mean",
+        "GLCM_correlation_std",
+        "GLCM_ASM_mean",
+        "GLCM_ASM_std",
+        "HuMoment_1",
+        "HuMoment_2",
+        "HuMoment_3",
+        "HuMoment_4"
+    ],
+    "near_duplicate_threshold": 3,
+    "near_duplicate_confirm_mse": 100.0,
+    "near_duplicate_pairs_dhash": 181,
+    "near_duplicate_pairs_confirmed": 180,
+    "near_duplicate_conflict_groups": 180,
+    "near_duplicate_same_class_dropped": 0,
+    "near_duplicate_cross_split_groups": 0
 }
