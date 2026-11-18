@@ -523,13 +523,12 @@ jupyter notebook "Notebook/Task02_Analysis of Disease Distribution and Environme
 
 | STT | Họ và Tên | MSSV | Vai trò |
 |:---:|---|---|---|
-| 1 | <!-- Tên thành viên 1 --> | <!-- MSSV --> | <!-- Vai trò --> |
-| 2 | <!-- Tên thành viên 2 --> | <!-- MSSV --> | <!-- Vai trò --> |
-| 3 | <!-- Tên thành viên 3 --> | <!-- MSSV --> | <!-- Vai trò --> |
+| 1 | Nguyễn Phúc An Khang | 3125720011 | LEADER |
+| 2 | Đặng Minh Tân | 3125720027 | Member |
 
 ### Giảng viên hướng dẫn
 
-- <!-- Tên giảng viên --> — Giảng viên môn Khai phá dữ liệu (Data Mining)
+- Thầy Nguyễn Thanh Phước — Giảng viên môn Khai phá dữ liệu (Data Mining)
 
 ### Trích dẫn nguồn dữ liệu
 
